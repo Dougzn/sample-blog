@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'exercicio-aula-3-Dougzn'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6F88D660EE8D43AF9EA4C771932EEFB5 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
           package: .
